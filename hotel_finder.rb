@@ -3,7 +3,7 @@ class HotelFinder
   HOTELS = "./Hotel.csv"
 
   def initialize
-    @hotel_list = Array.new(collect_csv_data)
+    @hotel_list = (collect_csv_data)
   end
 
   def main
@@ -24,7 +24,7 @@ class HotelFinder
   end
 
   def search_hotels(request)
-    search_result = hotel_list.find {|item| item.name.downcase == request} || NullObject.new
+    search_result = hotel_list.find {|item| item.name.downcase == request} || NullHotel.new
     puts search_result.information
   end
 
