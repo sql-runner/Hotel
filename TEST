@@ -1,0 +1,16 @@
+class Hotel
+attr_reader :name, :city, :phone, :single_beds, :double_beds
+
+  def initialize(hotelinfo)
+    @name = hotelinfo["Hotel"].strip
+    @city = hotelinfo["City"].strip
+    @phone = hotelinfo["Phone Number"].strip
+    @single_beds = hotelinfo["Number of Singles"].strip
+    @double_beds = hotelinfo["Number of Doubles"].strip
+  end
+
+  def to_s
+    "Hotel: " + name + " City: " + city + " Phone: " + phone +
+      " Single Beds: " + single_beds + " Double Beds " + double_beds
+  end
+end
