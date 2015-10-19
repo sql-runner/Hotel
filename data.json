@@ -1,0 +1,66 @@
+[
+  {
+    make: "MetalMan",
+    model: "2100"
+  },
+  {
+    make: "FlashMan",
+    model: "2200"
+  },
+  {
+    make: "WoodMan",
+    model: "2300"
+  },
+  {
+    make: "HeatMan",
+    model: "2400"
+  },
+  {
+    make: "CrashMan",
+    model: "2500"
+  },
+  {
+    make: "AirMan",
+    model: "2600"
+  },
+  {
+    make: "BubbleMan",
+    model: "2700"
+  },
+  {
+    make: "QuickMan",
+    model: "2800"
+  },
+  {
+    make: "MetalMan",
+    model: "3100"
+  },
+  {
+    make: "FlashMan",
+    model: "3200"
+  },
+  {
+    make: "WoodMan",
+    model: "3300"
+  },
+  {
+    make: "HeatMan",
+    model: "3400"
+  },
+  {
+    make: "CrashMan",
+    model: "3500"
+  },
+  {
+    make: "AirMan",
+    model: "3600"
+  },
+  {
+    make: "BubbleMan",
+    model: "3700"
+  },
+  {
+    make: "QuickMan",
+    model: "3800"
+  }
+]
